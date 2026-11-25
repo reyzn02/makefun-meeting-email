@@ -2,17 +2,18 @@
 """The Meeting That Should Have Been an Email.
 
 The program writes a single line, one joke about a meeting that should
-have been an email: an hour spent deciding the next meeting should have
-been an email, followed by a follow-up to discuss it. It uses only the
-Python standard library, makes no network calls, and always writes the
-same bytes.
+have been an email: the meeting itself spent an hour discussing the
+email it should have been, then booked a follow-up to decide when to
+send it. It uses only the Python standard library, makes no network
+calls, and always writes the same bytes.
 """
 
 import os
 
 LINE = (
-    "We held a one-hour meeting to decide that the next meeting should "
-    "have been an email, then scheduled a follow-up to discuss it."
+    "This meeting could have been an email, so we spent an hour "
+    "discussing it in a meeting and booked a follow-up to decide when "
+    "to send it."
 )
 
 MAX_CHARS = 200
